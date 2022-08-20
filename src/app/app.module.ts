@@ -10,6 +10,7 @@ import { FormRegisterComponent } from './components/form/form-register/form-regi
 import { FormAdopcionComponent } from './components/form/form-adopcion/form-adopcion.component';
 import { FormRescateComponent } from './components/form/form-rescate/form-rescate.component';
 import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
     AcercaDeComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
